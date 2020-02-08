@@ -1,0 +1,685 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>5. Telegram · Linux-运维之美</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-okaidia.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../website.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="brook.html" />
+    
+
+    
+        <link rel="shortcut icon" href="https://s2.ax1x.com/2020/02/08/1WBlon.png" type="image/x-icon">
+    
+    
+        <link rel="bookmark" href="https://s2.ax1x.com/2020/02/08/1WBlon.png" type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" sizes="152x152" href="https://s2.ax1x.com/2020/01/19/19g6JA.png">
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://s2.ax1x.com/2020/01/19/19g6JA.png">
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="https://s2.ax1x.com/2020/01/19/19gRQP.png">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="https://s2.ax1x.com/2020/01/19/19grIH.png">
+        
+    
+    
+        
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://s2.ax1x.com/2020/01/19/19gRQP.png">
+        
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://s2.ax1x.com/2020/01/19/19grIH.png">
+        
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"colin-chang","repo":"linux","type":"star","size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" >
+            
+                <a target="_blank" href="https://ccstudio.org">
+            
+                    
+                    CC Studio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part I - Linux基础</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../part1/directive.html">
+            
+                <a href="../part1/directive.html">
+            
+                    
+                    1. Linux命令简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../part1/filemg/index.md">
+            
+                <span>
+            
+                    
+                    2. 文件目录管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../part1/filemg/directory.html">
+            
+                <a href="../part1/filemg/directory.html">
+            
+                    
+                    2.1 目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../part1/filemg/view.html">
+            
+                <a href="../part1/filemg/view.html">
+            
+                    
+                    2.2 查看文件目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../part1/filemg/mkrm.html">
+            
+                <a href="../part1/filemg/mkrm.html">
+            
+                    
+                    2.3 新建/删除
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../part1/filemg/cpmv.html">
+            
+                <a href="../part1/filemg/cpmv.html">
+            
+                    
+                    2.4 拷贝/移动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../part1/filemg/find.html">
+            
+                <a href="../part1/filemg/find.html">
+            
+                    
+                    2.5 搜索/重定向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../part1/filemg/link.html">
+            
+                <a href="../part1/filemg/link.html">
+            
+                    
+                    2.6 文件链接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../part1/filemg/compress.html">
+            
+                <a href="../part1/filemg/compress.html">
+            
+                    
+                    2.7 打包压缩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../part1/filemg/vim.html">
+            
+                <a href="../part1/filemg/vim.html">
+            
+                    
+                    2.8 vi/vim
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../part1/permission/index.md">
+            
+                <span>
+            
+                    
+                    3. 权限管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../part1/permission/usermg.html">
+            
+                <a href="../part1/permission/usermg.html">
+            
+                    
+                    3.1 用户(组)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../part1/permission/permission.html">
+            
+                <a href="../part1/permission/permission.html">
+            
+                    
+                    3.2 权限管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../part1/maintenance.html">
+            
+                <a href="../part1/maintenance.html">
+            
+                    
+                    4. 系统维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../part1/remote.html">
+            
+                <a href="../part1/remote.html">
+            
+                    
+                    5. 远程管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part Ⅱ - 常用环境搭建</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../part2/ftp.html">
+            
+                <a href="../part2/ftp.html">
+            
+                    
+                    1. FTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../part2/mysql.html">
+            
+                <a href="../part2/mysql.html">
+            
+                    
+                    2. MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../part2/nginx.html">
+            
+                <a href="../part2/nginx.html">
+            
+                    
+                    3. Nginx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../part2/gui.html">
+            
+                <a href="../part2/gui.html">
+            
+                    
+                    4. 界面系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part Ⅲ - 科学上网</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="crossgfw.html">
+            
+                <a href="crossgfw.html">
+            
+                    
+                    1. 科学上网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="wg.html">
+            
+                <a href="wg.html">
+            
+                    
+                    2. WireGuard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="v2ray.html">
+            
+                <a href="v2ray.html">
+            
+                    
+                    3. V2Ray
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="brook.html">
+            
+                <a href="brook.html">
+            
+                    
+                    4. Brook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.5" data-path="tg.html">
+            
+                <a href="tg.html">
+            
+                    
+                    5. Telegram
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >5. Telegram</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="telegram---&#x7545;&#x4EAB;&#x5B89;&#x5168;&#x81EA;&#x7531;&#x901A;&#x8BAF;"><a name="telegram---&#x7545;&#x4EAB;&#x5B89;&#x5168;&#x81EA;&#x7531;&#x901A;&#x8BAF;" class="plugin-anchor" href="#telegram---&#x7545;&#x4EAB;&#x5B89;&#x5168;&#x81EA;&#x7531;&#x901A;&#x8BAF;"><i class="fa fa-link" aria-hidden="true"></i></a>Telegram - &#x7545;&#x4EAB;&#x5B89;&#x5168;&#x81EA;&#x7531;&#x901A;&#x8BAF;</h1>
+<h2 id="1-telegram-&#x7B80;&#x4ECB;"><a name="1-telegram-&#x7B80;&#x4ECB;" class="plugin-anchor" href="#1-telegram-&#x7B80;&#x4ECB;"><i class="fa fa-link" aria-hidden="true"></i></a>1. Telegram &#x7B80;&#x4ECB;</h2>
+<p>Telegram(&#x4FD7;&#x79F0;TG&#x6216;&#x7535;&#x62A5;) &#x662F;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x5B9E;&#x65F6;&#x901A;&#x8BAF;&#x5E94;&#x7528;&#xFF0C;&#x5B83;&#x7684;&#x5BA2;&#x6237;&#x7AEF;&#x662F;&#x81EA;&#x7531;&#x53CA;&#x5F00;&#x653E;&#x6E90;&#x4EE3;&#x7801;&#x5E94;&#x7528;&#xFF0C;&#x4F46;&#x662F;&#x5B83;&#x7684;&#x670D;&#x52A1;&#x5668;&#x662F;&#x4E13;&#x6709;&#x5E94;&#x7528;&#x3002;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x76F8;&#x4E92;&#x4EA4;&#x6362;&#x52A0;&#x5BC6;&#x4E0E;&#x81EA;&#x6790;&#x6784;&#x7684;&#x6D88;&#x606F;&#xFF0C;&#x4EE5;&#x53CA;&#x7167;&#x7247;&#x3001;&#x5F71;&#x7247;&#x3001;&#x6587;&#x4EF6;&#xFF0C;&#x652F;&#x6301;&#x6240;&#x6709;&#x7684;&#x6587;&#x4EF6;&#x7C7B;&#x578B;&#x3002;</p>
+<p>&#x6216;&#x8BB8;&#x4F60;&#x4E4B;&#x524D;&#x6CA1;&#x6709;&#x542C;&#x8BF4;&#x8FC7;&#x8FD9;&#x6B3E;&#x5E94;&#x7528;&#xFF0C;&#x6CA1;&#x5173;&#x7CFB;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x6240;&#x5C5E;&#x7684;&#x516C;&#x53F8; Telegram Messenger LLP &#x662F;&#x4E00;&#x5BB6;&#x72EC;&#x7ACB;&#x7684;&#x975E;&#x8425;&#x5229;&#x516C;&#x53F8;&#xFF0C;&#x6CA1;&#x6709;&#x5546;&#x4E1A;&#x5229;&#x76CA;&#x9A71;&#x52A8;&#xFF0C;&#x4E0D;&#x5236;&#x9020;&#x65B0;&#x95FB;&#xFF0C;&#x4E0D;&#x7092;&#x4F5C;&#xFF0C;&#x4EA7;&#x54C1;&#x4E0D;&#x88AB;&#x5927;&#x4F17;&#x6240;&#x77E5;&#x4E5F;&#x5C31;&#x4E0D;&#x96BE;&#x7406;&#x89E3;&#x4E86;&#x3002;</p>
+<p>&#x4E13;&#x4E3A;&#x804A;&#x5929;&#x800C;&#x751F;&#x3002;&#x538C;&#x5026;&#x4E86;&#x5FAE;&#x4FE1;&#x7EFF;&#x548C;&#x5FAE;&#x535A;&#x6A59;&#xFF0C;&#x770B;&#x5230;&#x8FD9;&#x79CD;&#x58A8;&#x84DD;&#x8272;&#x8C03;&#x8FD8;&#x662F;&#x86EE;&#x8212;&#x670D;&#x7684;&#x3002;&#x5B83;&#x6574;&#x4F53;&#x91C7;&#x7528;&#x4E86; Material Design &#x7684;&#x8BBE;&#x8BA1;&#x89C4;&#x8303;&#xFF0C;&#x529F;&#x80FD;&#x90FD;&#x96C6;&#x4E2D;&#x5728;&#x4FA7;&#x6ED1;&#x62BD;&#x5C49;&#x4E2D;&#xFF0C;&#x4E3B;&#x754C;&#x9762;&#x4E3A;&#x804A;&#x5929;&#x754C;&#x9762;&#xFF0C;&#x70B9;&#x51FB;&#x4E3B;&#x754C;&#x9762;&#x53F3;&#x4E0B;&#x89D2;&#x7684;&#x300C;&#x5927;&#x7F8E;&#x5706;&#x300D;&#x53EF;&#x4EE5;&#x53D1;&#x8D77;&#x804A;&#x5929;&#x3002;</p>
+<p>&#x51E0;&#x4E4E;&#x65E0;&#x61C8;&#x53EF;&#x51FB;&#x7684;&#x5B89;&#x5168;&#x4E0E;&#x79C1;&#x5BC6;&#x6027;&#x3002;&#x770B;&#x4E0B;&#x7528;&#x6237;&#x5C31;&#x77E5;&#x9053;&#x4E86;&#xFF0C;IS,&#x666E;&#x4EAC;,&#x5DDD;&#x666E;&#xFF0C;&#x6CA1;&#x9519;&#x4ED6;&#x4EEC;&#x90FD;&#x5728;&#x7528;... &#x76F8;&#x6BD4;&#x5FAE;&#x4FE1;&#x7B49;&#xFF0C;&#x4E0D;&#x89E3;&#x91CA;&#xFF0C;&#x5927;&#x5BB6;&#x61C2;...</p>
+<h2 id="2-telegram-&#x4E0B;&#x8F7D;"><a name="2-telegram-&#x4E0B;&#x8F7D;" class="plugin-anchor" href="#2-telegram-&#x4E0B;&#x8F7D;"><i class="fa fa-link" aria-hidden="true"></i></a>2. Telegram &#x4E0B;&#x8F7D;</h2>
+<p>&#x5B98;&#x65B9;&#x7F51;&#x7AD9;&#x6709;&#x6B63;&#x5F0F;&#x53D1;&#x5E03; Android&#x3001;iOS&#x3001;Mac OS X &#x4E0E; &#x6B63;&#x5728; Beta &#x7684; Windows Phone &#x7684;&#x7248;&#x672C;&#x3002;</p>
+<p><a href="https://telegram.org/" target="_blank">https://telegram.org/</a> &#x9700;&#x8981;&#x7FFB;&#x5899;&#x8BBF;&#x95EE;&#x1F622;&#x1F622;&#x1F622;</p>
+<h2 id="3-mtproxy"><a name="3-mtproxy" class="plugin-anchor" href="#3-mtproxy"><i class="fa fa-link" aria-hidden="true"></i></a>3. MTProxy</h2>
+<p>&#x4E00;&#x6B21;&#x7FFB;&#x5899;&#x4E0B;&#x8F7D;&#x5BA2;&#x6237;&#x7AEF;&#x6CA1;&#x95EE;&#x9898;&#xFF0C;&#x4E00;&#x76F4;&#x7FFB;&#x5899;&#x4F7F;&#x7528;&#x5F53;&#x7136;&#x4E5F;&#x6CA1;&#x95EE;&#x9898;&#xFF0C;&#x4F30;&#x8BA1;&#x5BF9;&#x7FFB;&#x5899;&#x4E0D;&#x719F;&#x6089;&#x7684;&#x7AE5;&#x978B;&#x4EEC;&#x8981;&#x54ED;&#x4E86;&#xFF0C;&#x8FD8;&#x597D;Telegram&#x63D0;&#x4F9B;&#x4E86;&#x4EE3;&#x7406;&#x8BBE;&#x7F6E;&#x3002;</p>
+<p>Telegram&#x652F;&#x6301;Socket5&#x548C;MTProy&#x4E24;&#x79CD;&#x4EE3;&#x7406;&#x3002;&#x5173;&#x4E8E;Socket5&#x4EE3;&#x7406;&#xFF0C;Brook&#x548C;V2Ray&#x53EF;&#x4EE5;&#x7B80;&#x5355;&#x642D;&#x5EFA;&#x4E0D;&#x518D;&#x8D58;&#x8FF0;&#x3002;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x63A8;&#x8350;&#x4E0B;Telegram&#x7279;&#x6709;&#x7684;MTProxy&#x4EE3;&#x7406;&#xFF0C;&#x8FD9;&#x662F;&#x5B98;&#x65B9;&#x4E3A;TG&#x4E13;&#x95E8;&#x8BBE;&#x8BA1;&#x7684;&#x3002;</p>
+<p>&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x4EE5; Debian9 &#x4E3A;&#x4F8B;&#xFF0C;&#x901A;&#x8FC7;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;docker&#x955C;&#x50CF;&#xFF0C;&#x5FEB;&#x901F;&#x7684;&#x5927;&#x5BB6;&#x4E00;&#x53F0; MTProxy&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x8FD9;&#x5C31;&#x641E;&#x8D77;&#x6765;&#x5427;...</p>
+<pre class="language-"><code class="lang-sh"><span class="token comment"># &#x8FD0;&#x884C;docker&#x5BB9;&#x5668;</span>
+$ docker run -d -p <span class="token number">443</span>:443 --name<span class="token operator">=</span>mtproto-proxy --restart<span class="token operator">=</span>always -v proxy-config:/data telegrammessenger/proxy
+<span class="token comment"># &#x67E5;&#x770B;&#x4EE3;&#x7406;&#x4FE1;&#x606F;</span>
+$ docker logs mtproto-proxy
+</code></pre>
+<p>&#x627E;&#x5230;&#x5F62;&#x5982; <code>tg://proxy?server=xxx&amp;port=443&amp;secret=xxx</code>&#x7684;&#x90E8;&#x5206;&#x5C31;&#x662F;&#x4EE3;&#x7406;&#x4FE1;&#x606F;&#x3002;&#x5176;&#x4E2D;&#x5305;&#x542B;&#x4E86;&#x670D;&#x52A1;&#x5668;&#xFF08;server)&#xFF0C;&#x7AEF;&#x53E3;(port),&#x5BC6;&#x94A5;(secret)&#x4E09;&#x90E8;&#x5206;&#xFF0C;&#x5728;&#x5BA2;&#x6237;&#x7AEF;&#x4E2D;&#x6DFB;&#x52A0;MTProxy&#x5373;&#x53EF;&#x3002;</p>
+<p>&#x4E0D;&#x540C;&#x7684;&#x5BA2;&#x6237;&#x7AEF;&#x6DFB;&#x52A0;&#x4EE3;&#x7406;&#x7684;&#x5165;&#x53E3;&#x6709;&#x9501;&#x533A;&#x522B;&#xFF0C;&#x4E00;&#x822C;&#x5728;<code>Privacy and Security</code>&#x6216; <code>Data and Storage</code>&#x8BBE;&#x7F6E;&#x4E2D;&#x627E;&#x5230;<code>Use Proxy</code>&#x6DFB;&#x52A0;&#x4EE3;&#x7406;&#x3002;</p>
+<p>&#x81F3;&#x6B64;&#xFF0C;&#x5373;&#x53EF;&#x5728;<strong>&#x4E0D;&#x7FFB;&#x5899;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x4F7F;&#x7528;Telegram</strong>&#x4E86;&#x3002;</p>
+<p><img src="https://s2.ax1x.com/2020/01/19/19fy0f.jpg" alt="&#x8BBE;&#x7F6E;TG&#x4EE3;&#x7406;"></p>
+<footer class="page-footer"><span class="copyright">&#xA9; Colin Chang all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2020-01-31 08:29:00
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="brook.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 4. Brook">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"5. Telegram","level":"4.5","depth":1,"previous":{"title":"4. Brook","level":"4.4","depth":1,"path":"part3/brook.md","ref":"part3/brook.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","-lunr","-search","search-plus","advanced-emoji","github-buttons","multipart","splitter","tbfed-pagefooter","anchors","sitemap","copy-code-button","-sharing","sharing-plus","toggle-chapters","book-summary-scroll-position-saver","prism","-highlight","favicon-absolute"],"styles":{"website":"website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy Colin Chang","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"linux-3"},"book-summary-scroll-position-saver":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"multipart":{},"favicon-absolute":{"appleTouchIconMore":{"120x120":"https://s2.ax1x.com/2020/01/19/19gRQP.png","180x180":"https://s2.ax1x.com/2020/01/19/19grIH.png"},"appleTouchIconPrecomposed152":"https://s2.ax1x.com/2020/01/19/19g6JA.png","appleTouchIconPrecomposedMore":{"120x120":"https://s2.ax1x.com/2020/01/19/19gRQP.png","180x180":"https://s2.ax1x.com/2020/01/19/19grIH.png"},"favicon":"https://s2.ax1x.com/2020/02/08/1WBlon.png","bookmark":"https://s2.ax1x.com/2020/02/08/1WBlon.png","appleTouchIcon152":"https://s2.ax1x.com/2020/01/19/19g6JA.png"},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"https://ccstudio.org/linux"},"github-buttons":{"buttons":[{"user":"colin-chang","repo":"linux","type":"star","size":"small"}]},"copy-code-button":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":true,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","instapaper","vk","weibo"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{},"search-plus":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Linux-运维之美","gitbook":"*","description":"Linux—流行的服务器操作系统"},"file":{"path":"part3/tg.md","mtime":"2020-01-31T00:29:00.018Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-08T23:26:35.518Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

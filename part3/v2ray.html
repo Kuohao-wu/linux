@@ -1,0 +1,704 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>3. V2Ray · Linux-运维之美</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-okaidia.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../website.css">
+        
+    
+
+        
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="brook.html" />
+    
+    
+    <link rel="prev" href="wg.html" />
+    
+
+    
+        <link rel="shortcut icon" href="https://s2.ax1x.com/2020/02/08/1WBlon.png" type="image/x-icon">
+    
+    
+        <link rel="bookmark" href="https://s2.ax1x.com/2020/02/08/1WBlon.png" type="image/x-icon">
+    
+    
+        <link rel="apple-touch-icon" sizes="152x152" href="https://s2.ax1x.com/2020/01/19/19g6JA.png">
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://s2.ax1x.com/2020/01/19/19g6JA.png">
+    
+    
+        
+        <link rel="apple-touch-icon" sizes="120x120" href="https://s2.ax1x.com/2020/01/19/19gRQP.png">
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="https://s2.ax1x.com/2020/01/19/19grIH.png">
+        
+    
+    
+        
+        <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://s2.ax1x.com/2020/01/19/19gRQP.png">
+        
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://s2.ax1x.com/2020/01/19/19grIH.png">
+        
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"colin-chang","repo":"linux","type":"star","size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" >
+            
+                <a target="_blank" href="https://ccstudio.org">
+            
+                    
+                    CC Studio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part I - Linux基础</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../part1/directive.html">
+            
+                <a href="../part1/directive.html">
+            
+                    
+                    1. Linux命令简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../part1/filemg/index.md">
+            
+                <span>
+            
+                    
+                    2. 文件目录管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../part1/filemg/directory.html">
+            
+                <a href="../part1/filemg/directory.html">
+            
+                    
+                    2.1 目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../part1/filemg/view.html">
+            
+                <a href="../part1/filemg/view.html">
+            
+                    
+                    2.2 查看文件目录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.3" data-path="../part1/filemg/mkrm.html">
+            
+                <a href="../part1/filemg/mkrm.html">
+            
+                    
+                    2.3 新建/删除
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.4" data-path="../part1/filemg/cpmv.html">
+            
+                <a href="../part1/filemg/cpmv.html">
+            
+                    
+                    2.4 拷贝/移动
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.5" data-path="../part1/filemg/find.html">
+            
+                <a href="../part1/filemg/find.html">
+            
+                    
+                    2.5 搜索/重定向
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.6" data-path="../part1/filemg/link.html">
+            
+                <a href="../part1/filemg/link.html">
+            
+                    
+                    2.6 文件链接
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.7" data-path="../part1/filemg/compress.html">
+            
+                <a href="../part1/filemg/compress.html">
+            
+                    
+                    2.7 打包压缩
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.8" data-path="../part1/filemg/vim.html">
+            
+                <a href="../part1/filemg/vim.html">
+            
+                    
+                    2.8 vi/vim
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../part1/permission/index.md">
+            
+                <span>
+            
+                    
+                    3. 权限管理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="../part1/permission/usermg.html">
+            
+                <a href="../part1/permission/usermg.html">
+            
+                    
+                    3.1 用户(组)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="../part1/permission/permission.html">
+            
+                <a href="../part1/permission/permission.html">
+            
+                    
+                    3.2 权限管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../part1/maintenance.html">
+            
+                <a href="../part1/maintenance.html">
+            
+                    
+                    4. 系统维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../part1/remote.html">
+            
+                <a href="../part1/remote.html">
+            
+                    
+                    5. 远程管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part Ⅱ - 常用环境搭建</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../part2/ftp.html">
+            
+                <a href="../part2/ftp.html">
+            
+                    
+                    1. FTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../part2/mysql.html">
+            
+                <a href="../part2/mysql.html">
+            
+                    
+                    2. MySQL
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../part2/nginx.html">
+            
+                <a href="../part2/nginx.html">
+            
+                    
+                    3. Nginx
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../part2/gui.html">
+            
+                <a href="../part2/gui.html">
+            
+                    
+                    4. 界面系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part Ⅲ - 科学上网</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="crossgfw.html">
+            
+                <a href="crossgfw.html">
+            
+                    
+                    1. 科学上网
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="wg.html">
+            
+                <a href="wg.html">
+            
+                    
+                    2. WireGuard
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.3" data-path="v2ray.html">
+            
+                <a href="v2ray.html">
+            
+                    
+                    3. V2Ray
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="brook.html">
+            
+                <a href="brook.html">
+            
+                    
+                    4. Brook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="tg.html">
+            
+                <a href="tg.html">
+            
+                    
+                    5. Telegram
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >3. V2Ray</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x5168;&#x80FD;&#x7FFB;&#x5899;&#x5DE5;&#x5177;---v2ray"><a name="&#x5168;&#x80FD;&#x7FFB;&#x5899;&#x5DE5;&#x5177;---v2ray" class="plugin-anchor" href="#&#x5168;&#x80FD;&#x7FFB;&#x5899;&#x5DE5;&#x5177;---v2ray"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5168;&#x80FD;&#x7FFB;&#x5899;&#x5DE5;&#x5177; - V2Ray</h1>
+<h2 id="1-&#x524D;&#x8A00;"><a name="1-&#x524D;&#x8A00;" class="plugin-anchor" href="#1-&#x524D;&#x8A00;"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x524D;&#x8A00;</h2>
+<p>&#x6700;&#x8FD1;GFW&#x4E00;&#x76F4;&#x6301;&#x7EED;&#x53D1;&#x5A01;&#xFF0C;&#x636E;&#x8BF4;SSR&#x6570;&#x636E;&#x5305;&#x5DF2;&#x7ECF;&#x88AB;&#x8BC6;&#x522B;&#x3002;&#x5BFC;&#x81F4;&#x5927;&#x6279;&#x9E21;&#x9E21;&#x548C;VPS&#x88AB;&#x5899;&#x3002;&#x5927;&#x5BB6;&#x90FD;&#x5728;&#x5BFB;&#x627E;&#x66F4;&#x597D;&#x7684;&#x79D1;&#x5B66;&#x4E0A;&#x7F51;&#x7684;&#x4E00;&#x4E2A;&#x65B9;&#x5F0F;&#x3002;</p>
+<p>&#x5C31;&#x76EE;&#x524D;&#x6765;&#x8BB2;&#xFF0C;v2ray+ws+tls&#x7684;&#x4E00;&#x4E2A;&#x65B9;&#x5F0F;&#x53EA;&#x8981;&#x662F;&#x914D;&#x7F6E;&#x597D;&#x4E86;&#xFF0C;&#x4F2A;&#x88C5;&#x80FD;&#x529B;&#x90A3;&#x662F;&#x76F8;&#x5F53;&#x7684;&#x5F3A;&#x3002;&#x3002;&#x3002;&#x4F46;&#x6240;&#x6709;&#x4E1C;&#x897F;&#x6CA1;&#x6709;&#x7EDD;&#x5BF9;&#xFF0C;&#x53EA;&#x80FD;&#x8BF4;&#xFF0C;&#x80FD;&#x8BA9;&#x4F60;&#x66F4;&#x5927;&#x51E0;&#x7387;&#x7684;&#x907F;&#x514D;&#x88AB;&#x5899;&#x3002;</p>
+<h2 id="2-v2ray-&#x4E0A;&#x624B;"><a name="2-v2ray-&#x4E0A;&#x624B;" class="plugin-anchor" href="#2-v2ray-&#x4E0A;&#x624B;"><i class="fa fa-link" aria-hidden="true"></i></a>2. V2Ray &#x4E0A;&#x624B;</h2>
+<h3 id="21-&#x670D;&#x52A1;&#x7AEF;"><a name="21-&#x670D;&#x52A1;&#x7AEF;" class="plugin-anchor" href="#21-&#x670D;&#x52A1;&#x7AEF;"><i class="fa fa-link" aria-hidden="true"></i></a>2.1 &#x670D;&#x52A1;&#x7AEF;</h3>
+<p>&#x9664;&#x4E86;&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x65B9;&#x63D0;&#x4F9B;&#x7684;V2Ray&#x8282;&#x70B9;&#x5916;&#xFF0C;&#x76F8;&#x4FE1;&#x5C0F;&#x4F19;&#x4F34;&#x4EEC;&#x5DF2;&#x7ECF;&#x8FEB;&#x4E0D;&#x53CA;&#x5F85;&#x7684;&#x60F3;&#x81EA;&#x5EFA;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5C0F;&#x8BD5;&#x8EAB;&#x624B;&#x4E86;&#xFF0C;&#x8BDD;&#x4E0D;&#x591A;&#x8BF4;&#xFF0C;&#x8FD9;&#x5C31;&#x64CD;&#x7EC3;&#x8D77;&#x6765;&#x5427;...</p>
+<p>&#x7CFB;&#x7EDF;&#x73AF;&#x5883;&#xFF1A; Debian 8</p>
+<pre class="language-"><code class="lang-sh">$ <span class="token function">sudo</span> -i
+$ <span class="token function">cp</span> /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+
+<span class="token comment"># &#x5F00;&#x542F;Debian&#x81EA;&#x5E26;&#x7684;BBR&#xFF1A;</span>
+$ <span class="token builtin class-name">echo</span> <span class="token string">&quot;net.core.default_qdisc=fq&quot;</span> <span class="token operator">&gt;&gt;</span> /etc/sysctl.conf <span class="token operator">&amp;&amp;</span> <span class="token builtin class-name">echo</span> <span class="token string">&quot;net.ipv4.tcp_congestion_control=bbr&quot;</span> <span class="token operator">&gt;&gt;</span> /etc/sysctl.conf <span class="token operator">&amp;&amp;</span> sysctl -p <span class="token operator">&amp;&amp;</span> sysctl net.ipv4.tcp_available_congestion_control <span class="token operator">&amp;&amp;</span> lsmod <span class="token operator">|</span> <span class="token function">grep</span> bbr
+
+<span class="token comment"># &#x5B89;&#x88C5; v2-ui (&#x5305;&#x542B;V2Ray&#x5B98;&#x65B9;&#x5305;) https://github.com/sprov065/v2-ui</span>
+$ <span class="token function">bash</span> <span class="token operator">&lt;</span><span class="token punctuation">(</span><span class="token function">curl</span> -Ls https://blog.sprov.xyz/v2-ui.sh<span class="token punctuation">)</span>
+</code></pre>
+<blockquote>
+<p>v2-ui <a href="https://github.com/sprov065/v2-ui" target="_blank">https://github.com/sprov065/v2-ui</a>
+&#x514D;&#x8D39;Https&#x8BC1;&#x4E66; <a href="https://freessl.cn/" target="_blank">https://freessl.cn/</a>
+&#x514D;&#x8D39;&#x7684;&#x56FD;&#x9645;&#x57DF;&#x540D; <a href="https://freenom.com/" target="_blank">https://freenom.com/</a></p>
+</blockquote>
+<p>v2-ui&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#x5373;&#x53EF;&#x75DB;&#x8FC7;&#x754C;&#x9762;&#x5316;&#x914D;&#x7F6E;v2ray&#xFF0C;&#x5E76;&#x4F5C;&#x57DF;&#x540D;&#x89E3;&#x6790;&#x3002;</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FsFuE9SVP8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3 id="22-&#x5BA2;&#x6237;&#x7AEF;"><a name="22-&#x5BA2;&#x6237;&#x7AEF;" class="plugin-anchor" href="#22-&#x5BA2;&#x6237;&#x7AEF;"><i class="fa fa-link" aria-hidden="true"></i></a>2.2 &#x5BA2;&#x6237;&#x7AEF;</h3>
+<p>V2Ray &#x642D;&#x5EFA;&#x597D;&#x4E86;&#xFF0C;&#x81EA;&#x7136;&#x8981;&#x914D;&#x7F6E;&#x5BA2;&#x6237;&#x7AEF;&#x4F7F;&#x7528;&#x54AF;~</p>
+<p>V2Ray&#x652F;&#x6301;
+<a href="https://github.com/2dust/v2rayN/releases" target="_blank">Windows</a>/
+<a href="https://github.com/Cenmrev/V2RayX/releases" target="_blank">mac OS</a>/
+Linux/
+<a href="https://github.com/2dust/v2rayNG/releases" target="_blank">Android</a>/
+<a href="https://apps.apple.com/us/app/shadowrocket/id932747118" target="_blank">iOS</a>
+&#x7B49;&#x4E3B;&#x6D41;&#x5E73;&#x53F0;&#x3002;</p>
+<p>&#x9664;Linux&#x5916;&#xFF0C;&#x6240;&#x6709;&#x5BA2;&#x6237;&#x7AEF;&#x90FD;&#x662F;&#x7B80;&#x5355;&#x7684;&#x56FE;&#x5F62;&#x754C;&#x9762;&#x64CD;&#x4F5C;&#xFF0C;&#x5728;&#x6B64;&#x4E0D;&#x518D;&#x8D58;&#x8FF0;&#x3002;&#x6709;&#x4E0D;&#x660E;&#x767D;&#x8BFB;&#x8005;&#xFF0C;&#x70B9;&#x51FB;&#x53C2;&#x8003;&#x4EE5;&#x4E0A;&#x8FDE;&#x63A5;&#x5373;&#x53EF;&#x3002; </p>
+<footer class="page-footer"><span class="copyright">&#xA9; Colin Chang all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2020-01-19 13:55:39
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="wg.html" class="navigation navigation-prev " aria-label="Previous page: 2. WireGuard">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="brook.html" class="navigation navigation-next " aria-label="Next page: 4. Brook">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"3. V2Ray","level":"4.3","depth":1,"next":{"title":"4. Brook","level":"4.4","depth":1,"path":"part3/brook.md","ref":"part3/brook.md","articles":[]},"previous":{"title":"2. WireGuard","level":"4.2","depth":1,"path":"part3/wg.md","ref":"part3/wg.md","articles":[]},"dir":"ltr"},"config":{"plugins":["disqus","-lunr","-search","search-plus","advanced-emoji","github-buttons","multipart","splitter","tbfed-pagefooter","anchors","sitemap","copy-code-button","-sharing","sharing-plus","toggle-chapters","book-summary-scroll-position-saver","prism","-highlight","favicon-absolute"],"styles":{"website":"website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy Colin Chang","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"disqus":{"useIdentifier":false,"shortName":"linux-3"},"book-summary-scroll-position-saver":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"multipart":{},"favicon-absolute":{"appleTouchIconMore":{"120x120":"https://s2.ax1x.com/2020/01/19/19gRQP.png","180x180":"https://s2.ax1x.com/2020/01/19/19grIH.png"},"appleTouchIconPrecomposed152":"https://s2.ax1x.com/2020/01/19/19g6JA.png","appleTouchIconPrecomposedMore":{"120x120":"https://s2.ax1x.com/2020/01/19/19gRQP.png","180x180":"https://s2.ax1x.com/2020/01/19/19grIH.png"},"favicon":"https://s2.ax1x.com/2020/02/08/1WBlon.png","bookmark":"https://s2.ax1x.com/2020/02/08/1WBlon.png","appleTouchIcon152":"https://s2.ax1x.com/2020/01/19/19g6JA.png"},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"https://ccstudio.org/linux"},"github-buttons":{"buttons":[{"user":"colin-chang","repo":"linux","type":"star","size":"small"}]},"copy-code-button":{},"advanced-emoji":{"embedEmojis":false},"sharing":{"facebook":true,"twitter":true,"google":true,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","instapaper","vk","weibo"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"toggle-chapters":{},"search-plus":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Linux-运维之美","gitbook":"*","description":"Linux—流行的服务器操作系统"},"file":{"path":"part3/v2ray.md","mtime":"2020-01-19T05:55:39.512Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-02-08T23:26:35.518Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
